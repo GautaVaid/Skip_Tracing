@@ -1,0 +1,201 @@
+# Skip Tracing POC - Git Ignore Configuration
+# Professional .gitignore for Node.js, React, and full-stack development
+
+# ===== DEPENDENCIES =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== BUILD OUTPUT =====
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+
+# ===== ENVIRONMENT VARIABLES =====
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+.env.test
+.env.*.local
+
+# ===== API KEYS AND SECRETS =====
+# Apify API tokens
+.apify/
+apify_storage/
+
+# Supabase configuration
+.supabase/
+
+# Other API credentials
+*api-key*
+*secret*
+*token*
+config/secrets.json
+
+# ===== CACHE DIRECTORIES =====
+.cache/
+.npm/
+.yarn/
+.pnpm-store/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+
+# ===== TESTING =====
+coverage/
+.coverage/
+*.lcov
+.nyc_output/
+test-results/
+playwright-report/
+test-results/
+tests/screenshots/
+tests/videos/
+
+# ===== LOGS =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ===== RUNTIME DATA =====
+lib-cov/
+.grunt/
+.lock-wscript/
+.wafpickle-*
+.node_repl_history
+*.tsbuildinfo
+.tsbuildinfo
+
+# ===== EDITOR AND IDE =====
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===== OS GENERATED =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ===== TEMPORARY FILES =====
+*.tmp
+*.temp
+.tmp/
+.temp/
+*.bak
+*.backup
+
+# ===== DATABASE =====
+*.sqlite
+*.sqlite3
+*.db
+.db/
+database/backups/
+
+# ===== DOCKER =====
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# ===== DEPLOYMENT =====
+.deploy/
+.deployment/
+.vercel/
+.netlify/
+.firebase/
+
+# ===== PROJECT SPECIFIC =====
+# Skip tracing data (should not be committed)
+data/skip_trace_results/
+exports/generated/
+temp_exports/
+
+# Analytics and tracking data
+analytics/raw_data/
+tracking/user_sessions/
+
+# PDF and CSV exports (generated files)
+exports/*.pdf
+exports/*.csv
+temp_files/
+
+# Test data and fixtures (keep structure, ignore actual data)
+tests/fixtures/real_data/
+tests/screenshots/
+tests/videos/
+
+# MCP server temporary files
+.mcp-temp/
+mcp-logs/
+
+# ===== SECURITY =====
+# Never commit these files
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+ssl/
+
+# Authentication tokens
+auth-tokens.json
+user-sessions.json
+
+# ===== PERFORMANCE =====
+.webpack-bundle-analyzer/
+bundle-analyzer-report.html
+.size-snapshot.json
+
+# ===== MISC =====
+.yarnclean
+.yarn-integrity
+.yarnrc
+.npmrc
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Windows  
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
