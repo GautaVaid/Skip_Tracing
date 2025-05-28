@@ -1,0 +1,78 @@
+MIT License
+
+Copyright (c) 2025 Skip Tracing POC Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-Party Software Notice
+
+This project uses third-party software components that are subject to their own licenses:
+
+### Frontend Dependencies
+- React - MIT License
+- Material-UI - MIT License
+- React Router - MIT License
+
+### Backend Dependencies  
+- Express.js - MIT License
+- Supabase - Apache License 2.0
+- Apify SDK - Apache License 2.0
+
+### Development Tools
+- ESLint - MIT License
+- Prettier - MIT License
+- Playwright - Apache License 2.0
+
+### Data Source Compliance
+This software is designed to work with publicly available data sources and APIs. Users are responsible for:
+- Complying with data source terms of service
+- Ensuring proper data usage permissions
+- Following applicable privacy laws (GDPR, CCPA, etc.)
+- Respecting rate limits and usage restrictions
+
+### Important Disclaimers
+
+#### Data Accuracy
+The software aggregates data from multiple sources but does not guarantee accuracy, completeness, or timeliness of the information. Users should verify data independently before making decisions based on the results.
+
+#### Legal Compliance
+Users are solely responsible for ensuring their use of this software complies with:
+- Federal, state, and local laws
+- Fair Credit Reporting Act (FCRA) requirements
+- Gramm-Leach-Bliley Act (GLBA) compliance
+- Other applicable regulations
+
+#### Intended Use
+This software is designed for legitimate business purposes including:
+- Asset recovery and repossession
+- Debt collection (with proper licensing)
+- Legal service of process
+- Background verification (with proper permissions)
+
+#### Prohibited Uses
+This software must not be used for:
+- Stalking, harassment, or threats
+- Identity theft or fraud
+- Unauthorized surveillance
+- Violation of privacy rights
+- Any illegal activities
+
+By using this software, you agree to use it responsibly and in accordance with all applicable laws and regulations.
